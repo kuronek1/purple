@@ -23,10 +23,19 @@
 }
 
 a {
+    display: inline-block;
     font-size: 30px;
     text-decoration: none;
     color: rgb(255, 217, 0);
-    border: 3px solid rgb(255, 217, 0);
+    border: 3px double rgb(255, 217, 0);
+    transition: 1s;
+}
+
+a:hover {
+    background-color: rgb(255, 217, 0);
+    color:rgb(159, 0, 252);
+    opacity: 0.9;
+
 }
 
 .more {
@@ -40,6 +49,7 @@ a {
     background-position: top center;
 }
 
+
 .article {
     color: rgb(9, 255, 0);
     padding-top: 20px;
@@ -48,7 +58,10 @@ a {
     text-align: top;
 }
 
-.part1, .part2,.part3,.part4 {
+.part1,
+.part2,
+.part3,
+.part4 {
     width: 50%;
     height: 50%;
     float: left;
@@ -67,11 +80,10 @@ a {
 }
 
 .footer {
-
     height: 100vh;
     width: 100vw;
     background-color: rgb(65, 0, 150);
-    text-align: center;    
+    text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -91,21 +103,47 @@ a {
 
 .post1 {
     background: rgb(75, 75, 75, 0.9);
+    transition: 1.5s;
+}
+.post1:hover {
+    background-color: rgb(33, 13, 41);
+    color:rgb(159, 0, 252);
+    opacity: 0.9;
+
 }
 .post2 {
     background: rgb(50, 50, 50, 0.9);
     margin-left: -60px;
     margin-bottom: -10px;
+    transition: 1.5s;
 }
+.post2:hover {
+    background-color: rgb(33, 13, 41);
+    color:rgb(159, 0, 252);
+    opacity: 0.9;
 
+}
 .post3 {
-    background: rgb(25, 25, 25, 0.9);;
+    background: rgb(25, 25, 25, 0.9);
     margin-left: -60px;
     margin-bottom: -20px;
+    transition: 1.5s;
 }
+.post3:hover {
+    background-color: rgb(33, 13, 41);
+    color:rgb(159, 0, 252);
+    opacity: 0.9;
 
+}
 .post4 {
-    background: rgb(0, 0, 0, 0.9);;
+    background: rgb(0, 0, 0, 0.9);
     margin-left: -60px;
     margin-bottom: -30px;
+    transition: 1.5s;
+}
+.post4:hover {
+    background-color: rgb(33, 13, 41);
+    color:rgb(159, 0, 252);
+    opacity: 0.9;
+
 }
